@@ -1,0 +1,250 @@
+*{
+  margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+background: white;
+}
+.navbar{
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
+.header .navbar a{
+  color: #839;
+  transition: .2s;
+}
+.header .navbar a:hover{
+  color: #c63bfa;
+}
+body h1{
+  color: #0ef;
+}
+}
+html{
+  font-size: 50px;
+}
+html h1{
+  color:#0ef;
+}
+.menu{
+  display: inline-block;
+  font-size: 55px;
+}
+.home{
+  width: 100%;
+  justify-content: space-between;
+  height: 100%;
+  display:flex ;
+  align-items: center;
+  padding: 70px 10% 0;
+}
+.home-content{
+  height: 100%;
+  width: 100%;
+}
+.home-content h3{
+  font-size: 35px;
+  font-weight: 680;
+}
+.home-content h1{
+  font-size: 55px;
+  font-weight:700;
+  margin: -3px 0;
+}
+.home-content img{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 200px;
+  right: 10px;
+}
+.btn-box{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0ef;
+  border-radius: 30px;
+  font-size: 17px;
+  color: #081b29;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-weight: 200;
+}
+.btn-box hover{
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan, 0 0 50px cyan,
+  0 0 100px cyan, 0 0 200px cyan;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 6rem;
+  
+}
+.about-img img{
+  padding-bottom:20%;
+  max-width: 600px;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+}
+.about-text h2{
+  color: #0ef;
+  font-size: 55px;
+}
+.about-text h4{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.7;
+  margin: 15px 0 30px;
+}
+.about-text p{
+  color: orangered;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+.skills {
+  padding-top:10px ;
+  padding-bottom: 10px;
+}
+ h1{
+  text-align: left;
+}
+.html {width: 90%; background-color: #00ffff;}
+.css {width: 80%; background-color: #00ff00;}
+.js {width: 65%; background-color: #ff69b4;}
+.bootstrap {width: 60%; background-color: #ffff00;
+}
+.projects{
+  display:grid;
+  grid-template-columns:(2,1fr);
+  padding:30px 20px;
+  grid-column-gap:20px;
+  grid-row-gap:30px;
+}
+.projects h1{
+  text-align:center;
+  color:#0ef;
+  font-size:100px;
+}
+.project img{
+  width:90%;
+  height:500px;
+  object-fit:cover;
+}
+.project h5{
+  text-align:center;
+  font-size:40px;
+}
+.container-fluid a{
+  font-size: 40px;
+}
+#navbarNav li{
+  font-size: 40px;
+  text-align: right;
+}
+.contact{
+  font-size: 30px;
+}
+.contactme{
+  width: 100%;
+  justify-content: space-between;
+}
+.socialicons a{
+  text-decoration: none;
+  padding: 10px;
+  background: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialicons a i{
+  color: blue;
+  opacity: 0.9;
+}
+.socialicons a:hover{
+  transform: scale(0.5s);
+  color: #0ef;
+}
+.socialicons a:hover i{
+  background: #0ef;
+  color: #000;
+  box-shadow: 0 0 20px #0ef;
+}
+.contactform{
+  padding: 50px;
+  font-size: 25px;
+ 
+}
+.contact-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ grid-gap: 30px
+}
+.contact-form{
+  text-align: left;
+}
+.form-group{
+  margin-bottom: 20px;
+}
+input,textarea{
+  
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f8f9fa;
+}
+input:focus,
+textarea:focus{
+  outline: none;
+  box-shadow: 0 0 8px #bbb;
+}
+button{
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+button:hover{
+  background-color: #45a049;
+}
+@media(max-width:800px){
+  h1{
+    font-size: 80%;
+  }
+ .header .navbar{
+    font-size: 50%;
+    transition: .2s linear;
+  }
+.home-content img{
+    width: 30%;
+    height: 30%;
+    bottom: 10px;
+    right: 10px;
+  }
+  .menu{
+    font-size: 55%;
+  }
+  html{
+    font-size: 60%;
+  }
+  .projects h1{
+    font-size:50px;
+  }
+  #navbarNav li{
+    font-size: 40%;
+  }
+}
